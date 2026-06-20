@@ -37,7 +37,7 @@ jobs:
           ENVEOF
 
       - name: Install npm dependencies (patch-package auto-applied)
-        run: run: npm install --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: Grant execute permission to gradlew
         run: chmod +x android/gradlew
